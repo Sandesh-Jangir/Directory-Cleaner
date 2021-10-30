@@ -12,7 +12,7 @@ createIfNotExists('Others')
 
 imgExts = [".png", ".jpg", ".jpeg"]
 images = [file for file in files if os.path.splitext(file)[1].lower() in imgExts]
-docExts = [".txt", ".docx", ".pptx", ".xlsx"]
+docExts = [".txt", ".docx", ".pptx", ".xlsx", ".pdf"]
 docs = [file for file in files if os.path.splitext(file)[1].lower() in docExts]
 
 other = []
